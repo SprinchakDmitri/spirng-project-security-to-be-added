@@ -72,7 +72,9 @@ public class DemoAppConfig implements WebMvcConfigurer {
 		// just to make sure we are REALLY reading data from properties file
 		
 		logger.info(">>> jdbc.url=" + env.getProperty("jdbc.url"));
-		logger.info(">>> jdbc.user=" + env.getProperty("jdbc.user"));
+		logger.info(">>> jdbc.user=" + env.getProperty("jdbc.user")+"" +
+				"*******************************************************************" +
+				"******************************************************************");
 		
 		
 		// set database connection props

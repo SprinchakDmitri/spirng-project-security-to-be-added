@@ -19,10 +19,10 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` 
 VALUES 
-('john','{bcrypt}$2a$04$eFytJDGtjbThXa80FyOOBuFdK2IwjyWefYkMpiBEFlpBwDH.5PM0K',1),
-('mary','{bcrypt}$2a$04$eFytJDGtjbThXa80FyOOBuFdK2IwjyWefYkMpiBEFlpBwDH.5PM0K',1),
-('susan','{bcrypt}$2a$04$eFytJDGtjbThXa80FyOOBuFdK2IwjyWefYkMpiBEFlpBwDH.5PM0K',1);
-
+('john','{bcrypt}$2a$04$Ja2bkA6qDzpRzAhgxMGF0OaF.4e2iLvnDV9yDSn.WDPn31PaafIWG',1),
+('mary','{bcrypt}$2a$04$Ja2bkA6qDzpRzAhgxMGF0OaF.4e2iLvnDV9yDSn.WDPn31PaafIWG',1),
+('susan','{bcrypt}$2a$04$Ja2bkA6qDzpRzAhgxMGF0OaF.4e2iLvnDV9yDSn.WDPn31PaafIWG',1),
+('dsprinceac','{bcrypt}$2a$04$Ja2bkA6qDzpRzAhgxMGF0OaF.4e2iLvnDV9yDSn.WDPn31PaafIWG',1);
 
 --
 -- Table structure for table `authorities`
@@ -46,6 +46,10 @@ VALUES
 ('mary','ROLE_EMPLOYEE'),
 ('mary','ROLE_MANAGER'),
 ('susan','ROLE_EMPLOYEE'),
-('susan','ROLE_ADMIN');
-
+('susan','ROLE_MANAGER'),
+('susan','ROLE_DIRECTOR'),
+('dsprinceac','ROLE_EMPLOYEE'),
+('dsprinceac','ROLE_MANAGER'),
+('dsprinceac','ROLE_ADMIN'),
+('dsprinceac','ROLE_DIRECTOR');
 
